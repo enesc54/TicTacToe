@@ -1,0 +1,19 @@
+.playground{
+    margin:50px auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+}
+
+.cell{
+    background-color: #C2E7FF;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 90px;
+}
