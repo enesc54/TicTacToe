@@ -23,16 +23,18 @@ for (let i = 0; i < cells.length; i++){
             if(cell.textContent === ''){
                 cell.textContent = "X"
                 firstPlayer.push(cell.id)
-                win(firstPlayer,'X')
+                isWin(firstPlayer,'X')
+                player1 = !player1
             }
-            player1 = !player1;
+            
         }else{
             if(cell.textContent === ''){
                 cell.textContent = "O"
                 secondPlayer.push(cell.id)
-                win(secondPlayer,'O')
+                isWin(secondPlayer,'O')
+                player1 = !player1
             }
-            player1 = !player1;
+            
         }
     }
 }
