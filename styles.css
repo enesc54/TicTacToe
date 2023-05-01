@@ -1,5 +1,8 @@
 .playground{
-    margin:50px auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     width: 300px;
     height: 300px;
